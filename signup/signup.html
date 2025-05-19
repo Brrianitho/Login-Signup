@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="signup-page">
+  <div class="form-container">
+    <div class="image-header" style="background-image: url('https://unsplash.com/photos/woman-holds-a-delicate-flower-against-her-chest-RbZ5znfIfLY');"></div>
+    <h2>Signup</h2>
+    <form action="signup.php" method="POST">
+      <input type="number" name="number" placeholder="Number" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <input type="password" name="confirm_password" placeholder="Confirm Password" required />
+      <button type="submit" class="btn primary">Sign up</button>
+    </form>
+    <p class="redirect">Already Have an Account? <a href="login.html">Signin</a></p>
+  </div>
+</body>
+</html>
